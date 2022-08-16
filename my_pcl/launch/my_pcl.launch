@@ -1,0 +1,5 @@
+<launch>
+    <node name="sub_pub" pkg="my_pcl" type="sub_pub" output="screen"/>
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find my_pcl)/rviz/my_pcl.rviz" />
+
+</launch>
